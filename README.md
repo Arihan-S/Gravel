@@ -8,4 +8,4 @@ The purpose of this project is to learn and demonstrate my knowledge of engineer
 
 ## Project Overview
 
-This project consists of two main parts, the comppute cluster itself and the data analysis for which it is used. The compute cluster is made up of 3 Rock64 2GB SBCs running Arch Linux ARM, managed by the SLRUM workload manager in conjunction with OpenMPI.
+This project consists of two main parts, the compute cluster itself and the data analysis for which it is used. The compute cluster is made up of 3 Rock64 2GB SBCs running Arch Linux ARM, managed by the SLRUM workload manager in conjunction with OpenMPI.
