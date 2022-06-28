@@ -33,13 +33,12 @@ The first step of the project is to get the Rock64 boards running smoothly. This
 First we zero the MicroSD card and format it (sdb in this case is the MicroSD card).
 
 ```bash
-sudo dd if=/dev/zero of=/dev/sdb bs=1M count=32
-sudo fdisk /dev/sdb
+$ sudo dd if=/dev/zero of=/dev/sdb bs=1M count=32
+$ sudo fdisk /dev/sdb
 // Type O, P, N, P, 1, 32768, ENTER, w
-sudo mkfs.ext4 /dev/sdb1
-mkdir root
-sudo mount /dev/sdb1 root
-
+$ sudo mkfs.ext4 /dev/sdb1
+$ mkdir root
+$ sudo mount /dev/sdb1 root
 ```
 Next we get the Arch Linux ARM image and flash it to the card. We also flash the required firmware and U-boot bootloader.
 
